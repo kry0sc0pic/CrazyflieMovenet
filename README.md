@@ -1,6 +1,6 @@
 # flying crazyflies using pose estimation
 
-### prequisties
+### pre-requisties
 1. [Anaconda](https://www.anaconda.com/) or some alternative such as miniconda.
 2. [Crazyflie Client](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/) installed.
 2. Non-obosolete hardware
