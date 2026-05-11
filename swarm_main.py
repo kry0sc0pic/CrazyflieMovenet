@@ -23,14 +23,17 @@ BASELINE_ACTION_TIME = 5.0 # 2 secs for takeoff/land in baseline diff
 
 # Crazyflie Options
 URIS = [
-    "radio://0/45/2M/E7E7E7E7E7",
+    "radio://0/10/2M/E7E7E7E7E7",
+    "radio://0/20/2M/E7E7E7E7E7",
     "radio://0/30/2M/E7E7E7E7E7",
+    "radio://0/40/2M/E7E7E7E7E7",
+    #"radio://0/30/2M/E7E7E7E7E7",
     # "radio://0/40/2M/E7E7E7E7E7",
-    "radio://0/40/2M/E7E7E7E7E5",
-    "radio://0/80/2M/E7E7E7E7E5",
+    #"radio://0/40/2M/E7E7E7E7E5",
+    #"radio://0/80/2M/E7E7E7E7E5",
     ] # the addresses for the crazyflies
 DRY_RUN = True # Set to `True` to not use the actual crazyflies
-HEIGHT_LIMIT = 2.0 # Height limit for the crazyflies
+HEIGHT_LIMIT = 1.0 # Height limit for the crazyflies
 
 # Variables
 calibrationComplete = False
